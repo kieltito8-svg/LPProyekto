@@ -3,7 +3,18 @@ body{
   padding:0;
 }
 header{
+  display:flex;
+  flex-direction:row;
   background-color:#1fb429;
   height:80px;
   width:100%;
+}
+header p{
+  color:white;
+  margin:30px 20px 20px 20px;
+}
+img{
+  height:40px;
+  width:40px;
+  margin:20px;
 }
