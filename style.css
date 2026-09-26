@@ -43,11 +43,11 @@ main {
 }
 
 .clickable-options {
-  display: flex;              /* makes children (img, p) go in a row */
-  flex-direction: row;        /* horizontal layout */
-  align-items: center;        /* vertically center text and image */
+  display: flex;              
+  flex-direction: row;        
+  align-items: center;        
   justify-content: flex-start;
-  gap: 10px;                  /* space between logo and text */
+  gap: 10px;                  
 
   margin: 20px;
   height: 65px;
@@ -62,9 +62,9 @@ main {
 }
 
 .clickable-options p {
-  margin: 0;                  /* remove default paragraph margin */
+  margin: 0;                  
   font-weight: bold;
-  white-space: nowrap;        /* prevent text from wrapping if not wanted */
+  white-space: nowrap;        
 }
 
 .logos {
