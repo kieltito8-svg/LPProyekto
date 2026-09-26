@@ -36,31 +36,39 @@ img{
 }
 
 /*Clickable Selections*/
-main{
-  display:flex;
-  flex-direction:column;
+main {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin:20px;
-}
-main button{
-  flex-direction:row;
-  margin:20px;
-  height:65px;
-  width:85%;
-  border-radius:15px;
-  background-color:#1fb429; 
-  font-size:medium;
-  color:white;
-}
-main p{
-  display:inline;
-  font-weight: bold;
-  height:20px;
-  width:20px;
-}
-.logos{
-  height:20px;
-  width:20px;
 }
 
+.clickable-options {
+  display: flex;              /* makes children (img, p) go in a row */
+  flex-direction: row;        /* horizontal layout */
+  align-items: center;        /* vertically center text and image */
+  justify-content: flex-start;
+  gap: 10px;                  /* space between logo and text */
+
+  margin: 20px;
+  height: 65px;
+  width: 85%;
+  border-radius: 15px;
+  background-color: #1fb429;
+  font-size: medium;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0 15px;
+}
+
+.clickable-options p {
+  margin: 0;                  /* remove default paragraph margin */
+  font-weight: bold;
+  white-space: nowrap;        /* prevent text from wrapping if not wanted */
+}
+
+.logos {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+}
