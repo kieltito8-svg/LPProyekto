@@ -22,6 +22,7 @@ header p{
   white-space: nowrap;
 }
 header input{
+  border:none;
   margin:25px 20px 20px 10px;
   border-radius:10px;
   height:30px;
@@ -31,7 +32,7 @@ header input{
   height:20px;
   width:20px;
   margin:30px 5px 20px 0;
-  border-radius:10px;
+  border-radius:50%;
 }
 img{
   height:40px;
@@ -73,8 +74,8 @@ main {
 }
 
 .logos {
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   object-fit: contain;
 }
 @media (min-width:320px){
