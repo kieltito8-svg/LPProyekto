@@ -89,9 +89,11 @@ main {
   background-color:#1fb429;
   opacity:0.9;
   }
+input{
+  width:100%;
+}
   input[type=text], input[type=password]{
-    width: 300px;
-    min-width: 100%;
+    width: 100%;
     padding:15px;
     margin:5px 0 22px 0;
     border:none;
