@@ -91,6 +91,7 @@ main {
   }
 input{
   width:100%;
+  padding-right:10px;
 }
   input[type=text], input[type=password]{
     width: 100%;
