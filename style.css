@@ -113,7 +113,8 @@ main {
   }
   .btn:hover{
     opacity:1;
-  }      
+  }     
+
 @media (min-width:320px){
   .clickable-options{
      height: 65px;
